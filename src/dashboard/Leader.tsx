@@ -5,7 +5,7 @@ import Icon from '@material-ui/icons/DeviceHub';
 import CardWithIcon from './CardWithIcon';
 
 interface Props {
-    value?: string;
+    value?: string|number;
 }
 
 const Leader: FC<Props> = ({ value }) => {

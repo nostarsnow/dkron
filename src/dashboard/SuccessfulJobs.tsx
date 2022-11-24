@@ -5,7 +5,7 @@ import Icon from '@material-ui/icons/ThumbUp';
 import CardWithIcon from './CardWithIcon';
 
 interface Props {
-    value?: string;
+    value?: string|number;
 }
 
 const SuccessfulJobs: FC<Props> = ({ value }) => {

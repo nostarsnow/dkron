@@ -5,7 +5,7 @@ import Icon from '@material-ui/icons/NewReleases';
 import CardWithIcon from './CardWithIcon';
 
 interface Props {
-    value?: string;
+    value?: string|number;
 }
 
 const UntriggeredJobs: FC<Props> = ({ value }) => {

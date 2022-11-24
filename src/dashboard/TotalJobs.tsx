@@ -5,7 +5,7 @@ import Icon from '@material-ui/icons/Update';
 import CardWithIcon from './CardWithIcon';
 
 interface Props {
-    value?: string;
+    value?: string|number;
 }
 
 const TotalJobs: FC<Props> = ({ value }) => {

@@ -3,7 +3,7 @@ import { Chip } from '@material-ui/core';
 
 export const TagsField = ({ record }: any) => (
     <ul>
-        {Object.keys(record.Tags).map(key => (
+        {Object.keys(record.Tags || {}).map(key => (
             <Chip label={key+": "+record.Tags[key]} />
         ))}
     </ul>
